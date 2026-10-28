@@ -1,21 +1,16 @@
 ---
-type: memory
-recorded: YYYY-MM-DD
+id: unique-fact-id
+type: preference / decision / project-fact / open-item
+scope: global-or-project
+source: thread-id-or-evidence-path
 source_date: YYYY-MM-DD
-status: confirmed / historical / unverified / superseded
+recorded: YYYY-MM-DD
+status: confirmed / historical / inferred / unverified / stale / superseded
+evidence: user-confirmed-or-observed
+review_after: null
+supersedes: null
 ---
-# 标题
+# 单一结论
 
-## 结论
-
-## 来源与证据
-
-说明用户原话、来源文件/聊天、核验日期；不得记录凭据。
-
-## 适用范围与未知
-
-## 下一步
-
-## 取代关系
-
-如纠正旧结论，指向旧记录并说明原因。
+只写对未来有用的信息；一个事实一个现行位置。
+写明证据、适用范围、未知与下一步。不得将推测写成用户确认偏好。

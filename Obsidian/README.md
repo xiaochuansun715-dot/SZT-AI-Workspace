@@ -1,34 +1,29 @@
-# 个人长期记忆库
+# 个人与多 Agent 长期记忆库
 
-这是一个可在 Obsidian 打开的私有 Markdown 知识库，供用户和获得授权的 AI 共享项目背景与交接。
-建立日期：2026-10-28（Asia/Shanghai）。
+[从这里开始](START_HERE.md) · [项目索引](02_Projects/Index.md) · [偏好](01_Profile/Preferences.md) · [维护说明](07_Operations/Maintenance.md)
 
-## 从这里开始
+此库使用普通 Markdown，Obsidian 是查看和编辑方式。Codex、Muse、Rain、Hark 等可读同一份资料。
+建立：2026-10-28；升级：2026-10-29。
 
-- [AI 阅读入口](AI_START.md)
-- [一次读取的上下文包](AI_CONTEXT.md)
-- [偏好与操作边界](01_Profile/Preferences.md)
-- [项目索引](02_Projects/Index.md)
-- [待办与待核验](03_Handoffs/Next.md)
-- [更新记录](04_Log/Changelog.md)
-- [记忆模板](05_Templates/Memory.md)
+## 内容与读取
 
-## Obsidian 使用
+常读层保存用户确认的偏好、决策约束、项目现状及下一步。历史层保存 36 份已脱敏的既有项目摘要，仅按需查阅。
+初次盘点还索引了 50 份本机会话文件、45 个不同会话 ID。它们并非全部经过逐条语义整理；未覆盖项明确登记，不编造补齐。
+当前覆盖来自本机可访问材料和已连接会话；其他 Agent 的私有聊天不会自动流入此库。
 
-本地交付文件夹名为 Obsidian-Vault。打开 Obsidian，选择“打开文件夹作为仓库”，选这个文件夹即可。无需社区插件或付费 Obsidian Sync。
-GitHub 中对应目录是 Obsidian/。将整个私有仓库克隆到本机后，也可将其中的 Obsidian 文件夹作为仓库。
+## Obsidian 打开方式
 
-## 读取与同步
+选择“打开文件夹作为仓库”，选本 README 所在的 Obsidian-Vault 文件夹即可。无需社区插件。
+若克隆完整 GitHub 仓库，将其中 Obsidian/ 作为 Obsidian 仓库。
 
-GitHub 私有主本：https://github.com/xiaochuansun715-dot/SZT-AI-Workspace/tree/main/Obsidian
-本地交付是建立时的快照，不是已连接远端的 Git 工作区，不会自动同步。
-更新主本时使用获得授权的 GitHub 工具，或在完整 Git 克隆中先 pull、编辑、审核 diff、再提交 push。
-多位 AI 不要同时改同一文件。没有仓库写权限时，生成交接补丁交给用户或有权限的助手。
-InstaBox 目标位置拟为 /data/workspace/team-office/projects/ai-memory/Obsidian；本次未部署，需恢复连接后再读取服务器规则、领取任务并同步。
-不要将本库切为公开，不要保存凭据。
+## 同步与共享
 
-## 给其他 AI 的话
+私有仓库：https://github.com/xiaochuansun715-dot/SZT-AI-Workspace/tree/main/Obsidian
+本机维护会保留变更与同步状态；通过已授权 GitHub 连接同步。不是 Obsidian Sync，也不是自动同步所有电脑文件。
+InstaBox 不作为本方案运行前提。本次记忆维护未重新连接服务器或部署服务器副本。
+无连接能力的 Agent 可使用 [精简上下文包](AI_CONTEXT.md)。不要把私有仓库改成公开。
 
-请读取本私有仓库 Obsidian/AI_START.md，再读 Obsidian/AI_CONTEXT.md；按项目继续读取对应笔记。先确认读取成功，区分历史与实时状态，完成工作后更新有证据的结论和交接。
+## 防止变成冗余资料
 
-此链接不能赋予权限；每个 AI 仍需可用的 GitHub 私有仓库连接、授权本地文件访问，或用户上传的上下文包。AI 不会因文件存在而自动读取或持续在线。
+[质量门槛](07_Operations/Quality.md)：来源、范围、单一现行事实、过期复核、分层检索。
+每日维护只处理增量；每周复盘默认材料预算 12,000 字符，超量保留待办，不全库重读。

@@ -5,3 +5,5 @@
 *.key
 *.pem
 __pycache__/
+.memory_state/
+*.tmp
