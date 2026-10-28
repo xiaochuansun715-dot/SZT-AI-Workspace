@@ -1,0 +1,7 @@
+.obsidian/workspace*.json
+.trash/
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
