@@ -7,6 +7,7 @@
 | 多 Agent 长期记忆 | [Agent-Memory](Agent-Memory.md) | Obsidian、永久记忆、同步、复盘 |
 | InstaBox 共享办公区 | [InstaBox](InstaBox.md) | 云端、SSH、手机、Codex |
 | Binance / NONCE / NFT | [Binance-NONCE](Binance-NONCE.md) | 钱包、mint、SAT、额度、moat |
+| ComputeRoll / CROLL | [ComputeRoll](ComputeRoll.md) | GPU、哈希、proof、mine、BAW代理 |
 | Binance Pick / 神算子 | [Binance-Pick](Binance-Pick.md) | 积分、BTC、5分钟、回测、盘口 |
 | Farming Season | [Farming-Season](Farming-Season.md) | 打怪、F8、CDP、延迟 |
 | 杭州电商求职 | [Hangzhou-Jobs](Hangzhou-Jobs.md) | 岗位、投递、Drive、主表 |

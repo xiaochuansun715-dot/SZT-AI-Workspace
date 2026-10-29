@@ -36,3 +36,9 @@ status: historical-needs-recheck
 更多：[Binance历史资料](../06_History/Binance.md)。任何历史确认不扩展为新操作许可。
 
 2026-10-29 01:08（Asia/Shanghai）原会话最新答复仍为挑战入口429，称剩114张、账号二余1次；此数值是当时历史助手记录，本次未查链。没有新开题、签名或mint的成功证据。
+
+## 2026-10-29 当日新增
+
+- ComputeRoll首次证明提交成功的原会话记录已单独归纳：[ComputeRoll](ComputeRoll.md)。不要沿用早期“未提交、CROLL余额0”作为最新结果。
+- 同一原会话报告免费HALCYX #1789、#1790成功，value=0、gas 0.0000163631 BNB，未新增NFT授权；第三张需付费，未继续。
+- 晚间补打清单已执行的17张NFT、跳过项及气费见[当日资产操作历史](../06_History/Binance-2026-10-29.md)。这是历史操作结果，不是当前持仓或新授权。

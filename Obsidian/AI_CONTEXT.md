@@ -69,6 +69,11 @@ status: user-confirmed-history
 
 更多：[有证据的工作习惯](01_Profile/Decision-Style.md)。这里不记录未经用户确认的性格标签。
 
+## 批量确认的适用范围（2026-10-29）
+
+晚间补打清单会话01a187d9-a0a3-76f0-8a22-30c4349a464c中，用户在已有逐项预览后明确“全部确认 不需要我再重复”。
+处理已获明确批量授权的同一范围时不要重复索取相同确认；该表态不扩大到以后新清单、付费操作、新权限或超出预览的风险。
+
 
 ---
 
@@ -83,6 +88,7 @@ status: user-confirmed-history
 | 多 Agent 长期记忆 | [Agent-Memory](02_Projects/Agent-Memory.md) | Obsidian、永久记忆、同步、复盘 |
 | InstaBox 共享办公区 | [InstaBox](02_Projects/InstaBox.md) | 云端、SSH、手机、Codex |
 | Binance / NONCE / NFT | [Binance-NONCE](02_Projects/Binance-NONCE.md) | 钱包、mint、SAT、额度、moat |
+| ComputeRoll / CROLL | [ComputeRoll](02_Projects/ComputeRoll.md) | GPU、哈希、proof、mine、BAW代理 |
 | Binance Pick / 神算子 | [Binance-Pick](02_Projects/Binance-Pick.md) | 积分、BTC、5分钟、回测、盘口 |
 | Farming Season | [Farming-Season](02_Projects/Farming-Season.md) | 打怪、F8、CDP、延迟 |
 | 杭州电商求职 | [Hangzhou-Jobs](02_Projects/Hangzhou-Jobs.md) | 岗位、投递、Drive、主表 |
@@ -106,6 +112,8 @@ status: user-confirmed-history
 - [ ] 外部Agent分别核验私有仓库读取或附件流程；没有回执不能标已接入。
 - [ ] 继续补全Coverage中无历史摘要的会话；优先影响现行项目的缺口，寒暄与测试不入常读层。
 - [ ] InstaBox副本目前不是必需项；需用户继续要求且有安全连接时再部署。
-- [ ] 调度首轮运行后核验每日/每周增量整理与远端同步回执。
+- [x] 2026-10-29 22:04每日任务首次触发；本轮同步以本地回读回执为准。
+- [ ] 周复盘首轮仍待周日实际运行。
+- [ ] 归档/迁移路径造成80条旧消息重入队列，保留20261029T140422976780Z.json待按剩余额度补全；不是新增80个事实。
 
 本次已建立分层读取、防污染规则、日常整理脚本与Codex入口。自动化状态见登记结果。
